@@ -10,24 +10,28 @@ main {
 .navbar .btn-register {
   background-color: #5cb85f;
   color: #ffff;
-  border-radius: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .navbar .btn-register:hover {
   background-color: white;
   color: #232323;
+  border: 1px solid #5cb85f;
 }
 
 .btn-utama {
   background-color: #5cb85f;
   color: #ffff;
-  border-radius: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .btn-utama:hover {
   color: #5cb85f;
   background-color: #ffffff;
   border: 1px solid #5cb85f;
+  
 }
 
 .content {
@@ -82,11 +86,6 @@ main {
 
 .faq .title-faq {
   text-align: left;
-}
-
-footer {
-  margin-top: 200px;
-  margin-bottom: 100px;
 }
 
 .search {
@@ -149,6 +148,11 @@ footer {
   background-color: #5cb85f;
   color: white;
   transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.btn-color:hover {
+  background-color: white;
+  color: black;
 }
 
 .paragraph {
